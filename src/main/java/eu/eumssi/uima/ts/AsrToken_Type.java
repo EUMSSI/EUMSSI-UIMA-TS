@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Thu May 07 16:47:17 CEST 2015
+ * Updated by JCasGen Mon Jul 06 18:45:35 CEST 2015
  * @generated */
 public class AsrToken_Type extends MediaToken_Type {
   /** @generated 

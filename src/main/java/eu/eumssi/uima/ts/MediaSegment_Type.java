@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Thu May 07 16:47:17 CEST 2015
+ * Updated by JCasGen Mon Jul 06 18:45:35 CEST 2015
  * @generated */
 public class MediaSegment_Type extends Annotation_Type {
   /** @generated 
@@ -67,6 +67,30 @@ public class MediaSegment_Type extends Annotation_Type {
         if (featOkTst && casFeat_beginTime == null)
       jcas.throwFeatMissing("beginTime", "eu.eumssi.uima.ts.MediaSegment");
     ll_cas.ll_setIntValue(addr, casFeatCode_beginTime, v);}
+    
+  
+ 
+  /** @generated */
+  final Feature casFeat_text;
+  /** @generated */
+  final int     casFeatCode_text;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getText(int addr) {
+        if (featOkTst && casFeat_text == null)
+      jcas.throwFeatMissing("text", "eu.eumssi.uima.ts.MediaSegment");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_text);
+  }
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setText(int addr, String v) {
+        if (featOkTst && casFeat_text == null)
+      jcas.throwFeatMissing("text", "eu.eumssi.uima.ts.MediaSegment");
+    ll_cas.ll_setStringValue(addr, casFeatCode_text, v);}
     
   
  
@@ -132,6 +156,10 @@ public class MediaSegment_Type extends Annotation_Type {
  
     casFeat_beginTime = jcas.getRequiredFeatureDE(casType, "beginTime", "uima.cas.Integer", featOkTst);
     casFeatCode_beginTime  = (null == casFeat_beginTime) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_beginTime).getCode();
+
+ 
+    casFeat_text = jcas.getRequiredFeatureDE(casType, "text", "uima.cas.String", featOkTst);
+    casFeatCode_text  = (null == casFeat_text) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_text).getCode();
 
  
     casFeat_endTime = jcas.getRequiredFeatureDE(casType, "endTime", "uima.cas.Integer", featOkTst);

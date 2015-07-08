@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Thu May 07 16:47:17 CEST 2015
- * XML source: /home/jgrivolla/GitHub/EUMSSI-platform/uima/EumssiTS/src/main/resources/eu/eumssi/uima/ts/media.xml
+ * Updated by JCasGen Mon Jul 06 18:45:35 CEST 2015
+ * XML source: /home/jgrivolla/GitHub/EUMSSI-UIMA/uima-ts/src/main/resources/eu/eumssi/uima/ts/media.xml
  * @generated */
 public class AsrFiller extends AsrToken {
   /** @generated

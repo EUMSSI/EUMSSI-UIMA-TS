@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Thu May 07 16:47:17 CEST 2015
- * XML source: /home/jgrivolla/GitHub/EUMSSI-platform/uima/EumssiTS/src/main/resources/eu/eumssi/uima/ts/media.xml
+ * Updated by JCasGen Mon Jul 06 18:45:35 CEST 2015
+ * XML source: /home/jgrivolla/GitHub/EUMSSI-UIMA/uima-ts/src/main/resources/eu/eumssi/uima/ts/media.xml
  * @generated */
 public class MediaSegment extends Annotation {
   /** @generated
@@ -96,6 +96,28 @@ public class MediaSegment extends Annotation {
     if (MediaSegment_Type.featOkTst && ((MediaSegment_Type)jcasType).casFeat_beginTime == null)
       jcasType.jcas.throwFeatMissing("beginTime", "eu.eumssi.uima.ts.MediaSegment");
     jcasType.ll_cas.ll_setIntValue(addr, ((MediaSegment_Type)jcasType).casFeatCode_beginTime, v);}    
+   
+    
+  //*--------------*
+  //* Feature: text
+
+  /** getter for text - gets 
+   * @generated
+   * @return value of the feature 
+   */
+  public String getText() {
+    if (MediaSegment_Type.featOkTst && ((MediaSegment_Type)jcasType).casFeat_text == null)
+      jcasType.jcas.throwFeatMissing("text", "eu.eumssi.uima.ts.MediaSegment");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((MediaSegment_Type)jcasType).casFeatCode_text);}
+    
+  /** setter for text - sets  
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setText(String v) {
+    if (MediaSegment_Type.featOkTst && ((MediaSegment_Type)jcasType).casFeat_text == null)
+      jcasType.jcas.throwFeatMissing("text", "eu.eumssi.uima.ts.MediaSegment");
+    jcasType.ll_cas.ll_setStringValue(addr, ((MediaSegment_Type)jcasType).casFeatCode_text, v);}    
    
     
   //*--------------*

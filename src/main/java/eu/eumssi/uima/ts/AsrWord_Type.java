@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Thu May 07 16:47:17 CEST 2015
+ * Updated by JCasGen Mon Jul 06 18:45:35 CEST 2015
  * @generated */
 public class AsrWord_Type extends AsrToken_Type {
   /** @generated 
